@@ -1,31 +1,39 @@
 ### Date Created
 Date project was created: 8-21-2024
-Date README file was last updated: 9-18-2024
+Date README file was last updated: 12-8-2025
 
 ### Project Title
-TMDb Movie Data Investigation
+TMDb Movie Data Analysis
 
 ### Description
-In this project, I analyzed a dataset containing information of about 10,000 movies from The Movie Database (TMDb). Using Python libraries like NumPy and pandas within a Jupyter Notebook, I explored the data to uncover insights about movie release trends and actor roles.
+This project explores a dataset of approximately 10,000 movies from The Movie Database (TMDb).
+Using Python, NumPy, and pandas, I conducted exploratory data analysis to uncover trends in movie releases, actor roles, and popularity over time.
+Visualizations were used to illustrate key insights clearly.
 
-Key insights include:
+#### Project Objectives
 
-* Films are more likely to be released at the end of the year, particularly in September, October, November, and December.
-* Male actors are more frequently cast in multiple roles, with 9 out of 10 top appearances being men.
-* Over the years, films have seen a general increase in popularity, showing exponential growth despite outliers in the 70s.
+* Analyze movie release trends over months and years
+* Examine actor casting patterns and gender distribution
+* Investigate movie popularity growth over time
+* Apply data analysis techniques to generate actionable insights
+
+#### Key Insights
+
+* Films are most frequently released in the last quarter of the year (September–December)
+* Male actors dominate recurring roles, with 9 out of 10 top appearances being men
+* Movie popularity has generally increased over the years, showing exponential growth despite historical outliers in the 1970s
 
 ### Limitations
-While the dataset provides valuable insights, it contains only about 10,000 films, whereas approximately 100,000 films have been created, indicating that the conclusions may not represent the entire film industry.
+* Dataset contains ~10,000 films, while the global total is closer to 100,000
+* Conclusions may not fully represent the entire film industry
 
 ### Files Used
-Files used in this project include:
-
 tmdb_movies.csv
 
 ### Requirements
 Python (version 3.12.1)
-Libraries used in the project:
 
+Libraries used in the project:
 * pandas (version 2.2.2)
 * numpy (version 1.19.5)
 * seaborn
